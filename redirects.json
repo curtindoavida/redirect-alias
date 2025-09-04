@@ -1,0 +1,14 @@
+{
+  "defaultRedirect": "startupventurebuilder.com",
+  "rules": {
+    "sociap.io": { "redirectTo": "www.sociap.com.br", "type": 1 },
+    "agendawallet.com.br": { "redirectTo": "agendawallet.com", "type": 1 },
+    "www.rendafii.sociap.com.br": { "redirectTo": "rendafii.com.br", "type": 1 },
+    "rendafii.sociap.com.br": { "redirectTo": "rendafii.com.br", "type": 1 },
+    "mailone.com.br": { "redirectTo": "mailone.sociap.com.br", "type": 1 },
+    "midiakit.com.br": { "redirectTo": "mediakitlabs.com", "type": 1 },
+    "mediakitlabs.com.br": { "redirectTo": "mediakitlabs.com", "type": 1 },
+    "startupvb.com": { "redirectTo": "startupventurebuilder.com", "type": 1 },
+    "startupvb.com.br": { "redirectTo": "startupventurebuilder.com", "type": 1 }
+  }
+}
