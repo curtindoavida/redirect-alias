@@ -21,10 +21,8 @@ jobs:
         go build .
         chmod +x redirect-alias
         zip redirect-alias.zip redirect-alias redirects.json
-        pwd
-        ls -l *
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          /home/runner/redirect-alias/redirect-alias/redirect-alias.zip
+          /home/runner/work/redirect-alias/redirect-alias/redirect-alias.zip
