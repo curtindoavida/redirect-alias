@@ -8,7 +8,7 @@ on:
 jobs:
 
  LINUX_24_04:
-  name: Linux 24.04
+  name: Build a Release
   runs-on: ubuntu-24.04
   steps:
     - uses: actions/checkout@v4.2.2
@@ -26,3 +26,5 @@ jobs:
       with:
         files: |
           /home/runner/work/redirect-alias/redirect-alias/redirect-alias.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
