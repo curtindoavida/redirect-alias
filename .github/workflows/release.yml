@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branch:
-      - 'master'
-
+    tags:
+      - '*'
+      
 jobs:
 
  LINUX_24_04:
