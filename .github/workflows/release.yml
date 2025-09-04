@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - '*'
-      
+
 jobs:
 
  LINUX_24_04:
@@ -21,6 +21,7 @@ jobs:
         go build .
         chmod +x redirect-alias
         zip redirect-alias.zip redirect-alias redirects.json
+        pwd
         ls -l *
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v2
